@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- meta description -->
+    <meta name="description"
+        content="Pour le développement de votre marque, une bonne communication est indispensable ! La WebAgency est là pour vous accompagner dans toutes les étapes de réalisation de votre projet digitale en mettant à votre disposition tout son savoir faire. Créativité, passion audace et disponibilité caractérisent notre équipe de professionnels spécialisée dans l'UX/UI Design et le SEO." />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name=”twitter:site” content=”@webagency” />
+    <meta name="twitter:title" content="WebAgency : l'agence de tous vos projets.">
+    <meta name="twitter:description"
+        content="Pour le développement de votre marque, une bonne communication est indispensable ! La WebAgency est là pour vous accompagner dans toutes les étapes de réalisation de votre projet digitale en mettant à votre disposition tout son savoir faire. Créativité, passion audace et disponibilité caractérisent notre équipe de professionnels spécialisée dans l'UX/UI Design et le SEO.">
+    <meta name=”twitter:image” content=”https://www.webagency.com/slider.jpg” />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="WebAgency : l'agence de tous vos projets." />
+    <meta property="og:type" content="Website" />
+    <meta property="og:url" content="https://www.webagency.com/" />
+    <meta property="og:image" content="https://www.webagency.com/slider.jpg" />
+    <meta property="og:description"
+        content="Pour le développement de votre marque, une bonne communication est indispensable ! La WebAgency est là pour vous accompagner dans toutes les étapes de réalisation de votre projet digitale en mettant à votre disposition tout son savoir faire. Créativité, passion audace et disponibilité caractérisent notre équipe de professionnels spécialisée dans l'UX/UI Design et le SEO." />
+    <meta property="og:site_name" content="WebAgency" />
+
+    <!-- personal css -->
+    <link rel="stylesheet" href="public/style.css">
+
+    <!-- google fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="public/images/favicon.png" />
+
+    <!-- Bootstrap cdn-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Font Awesome icons-->
+    <script src="https://kit.fontawesome.com/c9ef589bf6.js" crossorigin="anonymous"></script>
+
+    <title>Webagency - L'agence de tous vos projets</title>
+</head>
+
+<body class="clPolicy">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top py-4">
+            <div class="container">
+                <div class="logo ps-2 ps-xl-5">
+                    <a href="index.html"><img src="public/images/logo.png" alt="Logo de la Webagency"></a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#responsiveNavbar" aria-controls="responsiveNavbar" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="fas fa-bars clFirst"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="responsiveNavbar">
+                    <ul class="navbar-nav pt-3 pt-lg-0 me-5">
+                        <li class="nav-item me-2">
+                            <a class="nav-link active clPolicy" aria-current="page" href="index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item me-2">
+                            <a class="nav-link clPolicy" href="#serviceSection">Services</a>
+                        </li>
+                        <li class="nav-item me-2">
+                            <a class="nav-link clPolicy" href="#portfolioSection">Portfolio</a>
+                        </li>
+                        <li class="nav-item me-2">
+                            <a class="nav-link clPolicy" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Slider -->
+        <section id="slider">
+            <div class="container-fluid">
+                <!-- Slider carousel -->
+                <div id="sliderCarousel">
+                    <div id="carouselSlide" class="carousel slide px-4" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="5000">
+                                <img src="public/images/slider1.jpg" class="d-block w-100"
+                                    alt="Photo d'une petite fille les mains pleines de peinture">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="5000">
+                                <img src="public/images/slider2.jpg" class="d-md-block w-100"
+                                    alt="Photo d'un enfant qui crie dans un mégaphone">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev bg-dark" type="button" data-bs-target="#carouselSlide"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        </button>
+                        <button class="carousel-control-next bg-dark" type="button" data-bs-target="#carouselSlide"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </button>
+                    </div>
+                    <div id="imgResponsive" class="px-4">
+                        <div class="imgBackground">
+                            <img src="public/images/mainSlider.png" alt="Mains colorées" class="w-100">
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bgFirst" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+                        </div>
+                    </div>
+                    <!-- Slider presentation -->
+                    <div class="presentation position-absolute top-50 start-0 translate-middle-y">
+                        <div class="row ps-4 ps-md-5">
+                            <div
+                                class="title offset-2 col-8 offset-sm-2 col-sm-7 offset-md-1 col-md-7 offset-xl-1 col-xl-9 mt-5 mt-sm-0 clWhite">
+                                <h1 class="text-uppercase fw-bolder m-0"><span class="clFirst">Webagency</span> :
+                                    L'agence de tous vos projets !</h1>
+                                <p class="mt-2 mt-lg-3">Vous avez un projet web ? La Web Agency vous aide à le
+                                    réaliser !</p>
+                                <a href="#contact" class="btn bgFirst clWhite mt-md-2 mt-lg-3">Plus d'infos</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Service section -->
+        <section id="serviceSection" class="mb-4">
+            <div class="container">
+                <div class="row firstSection">
+                    <div class="d-flex justify-content-center">
+                        <div class="col-10 col-lg-8 col-xl-6 text-center">
+                            <h2 class="text-uppercase">Nos services</h2>
+                            <div class="hrIcon d-flex justify-content-center align-items-center my-3">
+                                <i class="fas fa-circle ico clFirst"></i>
+                                <hr>
+                            </div>
+                            <p>Pour le développement de votre marque, une bonne communication est
+                                indispensable ! La WebAgency est là pour vous accompagner dans toutes les étapes de
+                                réalisation de votre projet digitale en mettant à votre disposition tout son savoir
+                                faire. Créativité, passion audace et disponibilité caractérisent notre équipe de
+                                professionnels spécialisée dans l'UX/UI Design et le SEO. Fort d'un grand nombre <a
+                                    href="#portfolioSection" class="clFirst">de projets</a> réalisés depuis de
+                                nombreuses
+                                années, la qualité
+                                est le service client sont au centre de notre stratégie. Nous pouvons vous proposer <a
+                                    href="#contact" class="clFirst">un devis sur-mesure</a> dans le but de vous aider à
+                                mettre en place
+                                une stratégie de communication à la hauteur de vos exigences.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4 secondSection">
+                    <div class="col-lg-5 col-xl-6">
+                        <div class="screenImage d-flex justify-content-center justify-content-xl-end">
+                            <img src="public/images/screenFeature.png" alt="Image d'un écran d'ordinateur">
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-xl-6 mt-5 mb-5 px-4 px-sm-2 pe-xl-5">
+                        <ul class="ps-0 mt-4">
+                            <li class="d-flex flex-column flex-sm-row align-items-center">
+                                <div class="d-flex me-3">
+                                    <i class="fas fa-chart-line ico clFirst p-3"></i>
+                                    <i class="fas fa-circle ico clFirst"></i>
+                                </div>
+                                <article class="mt-3 mt-xl-0 px-2 px-sm-0">
+                                    <h3>UX design</h3>
+                                    <p>Grâce à des solutions adaptées aux exigences de chaque projet, nous concevons des
+                                        design
+                                        agréables et ergonomiques afin de donner la meilleure expérience utilisateur
+                                        possible.</p>
+                                </article>
+                            </li>
+                            <li class="d-flex flex-column flex-sm-row align-items-center mt-5 mt-sm-3 mt-lg-0">
+                                <div class="d-flex me-3">
+                                    <i class="fas fa-cubes ico clFirst p-3"></i>
+                                    <i class="fas fa-circle ico clFirst"></i>
+                                </div>
+                                <article class="mt-3 mt-xl-0 px-2 px-sm-0">
+                                    <h3>UI design</h3>
+                                    <p>En respectant votre Charte Graphique et vos contraintes, nous traduisons
+                                        visuellement vos
+                                        idées en formes et couleurs afin de décliner votre identité avec stratégie,
+                                        audace et
+                                        intelligence.</p>
+                                </article>
+                            </li>
+                            <li class="d-flex flex-column flex-sm-row align-items-center mt-5 mt-sm-3 mt-lg-0">
+                                <div class="d-flex me-3">
+                                    <i class="fas fa-chart-pie ico clFirst p-3"></i>
+                                    <i class="fas fa-circle ico clFirst"></i>
+                                </div>
+                                <article class="mt-3 mt-xl-0 px-2 px-sm-0">
+                                    <h3>SEO</h3>
+                                    <p>Spécialisés en référencement naturel et en SEO, nous élaborons avec vous une
+                                        stratégie
+                                        solide pour favoriser la visibilité de votre marque et asseoir votre légitimité
+                                        sur le Web.
+                                    </p>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio section -->
+        <section id="portfolioSection">
+            <div class="container bgSecond pb-5">
+                <div class="row firstSection">
+                    <div class="d-flex justify-content-center">
+                        <div class="col-10 col-lg-8 col-xl-6 text-center">
+                            <h2 class="text-uppercase fw-bold">Nos projets</h2>
+                            <div class="hrIcon d-flex justify-content-center align-items-center my-3">
+                                <i class="fas fa-circle ico clFirst"></i>
+                                <hr>
+                            </div>
+                            <p>Découvrez quelques unes de nos dernières réalisations. La WebAgency crée aussi bien des
+                                sites
+                                vitrines que des boutiques
+                                e-commerce et des blog .... de nombreux exemples de projets réalisés par notre équipe
+                                qui
+                                ont donné entière satisfaction
+                                à notre clientèle.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Nav portfolio -->
+                <div id="navPortfolio" class="row mt-4">
+                    <div class="col-12 d-flex justify-content-center my-4">
+                        <ul class="nav d-flex flex-column flex-sm-row justify-content-center flex-wrap bgNavPortfolio">
+                            <li class="nav-item">
+                                <a class="nav-link hoverLeft active clPolicy" aria-current="page" href="#">All
+                                    works<i class="fas fa-caret-down"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link clPolicy" href="#">Creative<i class="fas fa-caret-down"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link clPolicy" href="#">Corporate<i class="fas fa-caret-down"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link hoverRight clPolicy" href="#">Portfolio<i
+                                        class="fas fa-caret-down"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Portfolio -->
+                <div id="portfolio" class="row gx-4 gy-1 mt-5  mx-4 mx-md-2 pb-5">
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                        <figure>
+                            <a href="#"><img class="w-100" src="public/images/portfolio1.jpg"
+                                    alt="Image du site Topvision"></a>
+                            <figcaption class="clWhite">
+                                <h4>Topvision</h4>
+                                <p>Site vitrine d'un magasin d'optiques</p>
+                                <i class="far fa-eye bgFirst"></i>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                        <figure>
+                            <a href="#"><img class="w-100" src="public/images/portfolio2.jpg"
+                                    alt="Image du site C-lafete"></a>
+                            <figcaption class="clWhite">
+                                <h4>C-lafete</h4>
+                                <p>Site e-commerce de déguisements</p>
+                                <i class="far fa-eye bgFirst"></i>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                        <figure>
+                            <a href="#"><img class="w-100" src="public/images/portfolio3.jpg"
+                                    alt="Image du site Pompadour-fashion"></a>
+                            <figcaption class="clWhite">
+                                <h4>Pompadour-fashion</h4>
+                                <p>Site e-commerce de vente de vêtements</p>
+                                <i class="far fa-eye bgFirst"></i>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                        <figure>
+                            <a href="#"><img class="w-100" src="public/images/portfolio4.jpg"
+                                    alt="Image du blog Mario-photo"></a>
+                            <figcaption class="clWhite">
+                                <h4>Mario-photo</h4>
+                                <p>Blog d'un photographe</p>
+                                <i class="far fa-eye bgFirst"></i>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                        <figure>
+                            <a href="#"><img class="w-100" src="public/images/portfolio5.jpg"
+                                    alt="Image du site Bag-a-telle"></a>
+                            <figcaption class="clWhite">
+                                <h4>Bag-a-telle</h4>
+                                <p>Site e-commerce de vente de maroquinerie</p>
+                                <i class="far fa-eye bgFirst"></i>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                        <figure>
+                            <a href="#"><img class="w-100" src="public/images/portfolio6.jpg"
+                                    alt="Image du blog NellyetDavid"></a>
+                            <figcaption class="clWhite">
+                                <h4>NellyetDavid</h4>
+                                <p>Blog de deux voyageurs</p>
+                                <i class="far fa-eye bgFirst"></i>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                        <figure>
+                            <a href="#"><img class="w-100" src="public/images/portfolio7.jpg"
+                                    alt="Image du site En plein coeur"></a>
+                            <figcaption class="clWhite">
+                                <h4>En plein coeur</h4>
+                                <p>Site de rencontre</p>
+                                <i class="far fa-eye bgFirst"></i>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                        <figure>
+                            <a href="#"><img class="w-100" src="public/images/portfolio8.jpg"
+                                    alt="Image du site Be theme"></a>
+                            <figcaption class="clWhite">
+                                <h4>Be theme</h4>
+                                <p>Site de vente de matériel de bureau</p>
+                                <i class="far fa-eye bgFirst"></i>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-12 col-lg-4 imgResponsive">
+                        <figure>
+                            <a href="#"><img class="w-100" src="public/images/portfolio9.jpg"
+                                    alt="Image du site Fast and Good"></a>
+                            <figcaption class="clWhite">
+                                <h4>Fast and Good</h4>
+                                <p>Site vitrine d'un fast food</p>
+                                <i class="far fa-eye bgFirst"></i>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact section -->
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 p-0">
+                        <div id="filter" class="bgFirst w-100 p-0">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2214246079934!2d2.347636915235518!3d48.873055307628746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25%20Rue%20d&#39;Hauteville%2C%2075010%20Paris!5e0!3m2!1sfr!2sfr!4v1572268992278!5m2!1sfr!2sfr"
+                                width="600" height="450" style="border:0;" allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div id="formContact" class="col-8 col-sm-7 col-md-6 col-lg-5 col-xl-4 p-4">
+                    <form method="post" action="traitement.php">
+                        <div class="mb-0">
+                            <h3 class="fw-bolder">Formulaire de contact</h3>
+                            <p class="mb-0"><strong class="fw-bold">WebAgency SAS</strong> <br />
+                                25 rue d'Hauteville <br />
+                                75010 Paris <br />
+                                <em class="fst-italic">Tel :</em> 01 02 03 04 05
+                            </p>
+                        </div>
+                        <div class="mb-0">
+                            <label for="nom" class="form-label"></label>
+                            <input type="text" class="form-control" name="nom" id="nom" placeholder="nom">
+                        </div>
+                        <div class="mb-0">
+                            <label for="email" class="form-label"></label>
+                            <input type="email" class="form-control" name="email" id="email" placeholder="email">
+                        </div>
+                        <div class="mb-0">
+                            <label for="objet" class="form-label"></label>
+                            <input type="text" class="form-control" name="objet" id="objet" placeholder="objet">
+                        </div>
+                        <div class="mb-0">
+                            <label for="message" class="form-label"></label>
+                            <textarea class="form-control" name="message" id="message" rows="5" cols="5"
+                                placeholder="Votre message"></textarea>
+                        </div>
+                        <button type="submit" class="btn bgFirst clWhite mt-4">Envoyer</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Bootstrap JS bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

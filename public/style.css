@@ -1,0 +1,520 @@
+/* Principal colors */
+.bgFirst {
+    background-color: rgb(92, 173, 211) !important;
+}
+
+.bgNavPortfolio {
+    background-color: rgba(39, 39, 39, 0.2) !important;
+}
+
+.clFirst {
+    color: #5CADD3 !important;
+}
+
+.bgSecond {
+    background-color: #F5F5F5 !important;
+}
+
+.clPolicy {
+    color: rgb(39, 39, 39) !important;
+}
+
+.clWhite {
+    color: #ffffff !important;
+}
+
+/* General styles */
+body {
+    font-family: 'Roboto', Arial, Verdana, Sans-serif !important;
+    font-size: 1em !important;
+}
+
+main {
+    margin-top: 96px;
+}
+
+h1 {
+    font-size: 2.15em !important;
+}
+
+h2 {
+    font-size: 2.8em !important;
+}
+
+h3 {
+    font-size: 1.4em !important;
+}
+
+h4 {
+    font-size: 1.2em !important;
+}
+
+/* header */
+.navbar .nav-item a {
+    font-size: 1.1em;
+}
+
+.navbar .nav-item a:hover {
+    font-weight: 600;
+    border-top: 3px solid #5cadd3;
+    margin-top: -30px !important;
+    padding: 35px 0.3rem 0 0.3rem !important;
+}
+
+/* slider */
+#imgResponsive {
+    display: none;
+}
+
+#sliderCarousel {
+    position: relative;
+}
+
+#sliderCarousel .carousel-control-prev {
+    width: 36px !important;
+    height: 72px !important;
+    border-radius: 0 82px 82px 0;
+    position: absolute;
+    top: 50%;
+    left: 24px;
+}
+
+#sliderCarousel .carousel-control-prev-icon {
+    position: absolute;
+    left: 0;
+}
+
+#sliderCarousel .carousel-control-next {
+    width: 40px !important;
+    height: 80px !important;
+    border-radius: 90px 0 0 90px;
+    position: absolute;
+    top: 50%;
+    right: 24px;
+}
+
+#sliderCarousel .carousel-control-next-icon {
+    position: absolute;
+    right: 0;
+}
+
+#sliderCarousel .progress {
+    background-color: rgba(39, 39, 39, 0.1);
+    position: absolute;
+    bottom: 0;
+    left: 24px;
+    right: 24px;
+    height: 6px !important;
+    border-radius: 0;
+}
+
+.progress-bar {
+    width: 12%;
+    height: 6px;
+}
+
+#slider h1 {
+    line-height: 38px;
+    letter-spacing: 0.01em;
+    word-spacing: 0.1em;
+}
+
+#sliderCarousel .btn {
+    padding: 13px 30px 13px 30px;
+    font-size: 1.1em;
+}
+
+/* service section */
+#serviceSection {
+    margin-top: -10px;
+}
+
+.firstSection h2 {
+    margin-top: 105px;
+    font-weight: 800 !important;
+    letter-spacing: 0.01em;
+}
+
+.firstSection .hrIcon {
+    z-index: 0;
+}
+
+.firstSection .hrIcon hr {
+    width: 120px;
+}
+
+.firstSection .hrIcon .fa-circle {
+    position: relative;
+    left: 65px;
+    z-index: 1;
+}
+
+.firstSection a {
+    text-decoration: none;
+}
+
+.firstSection a:hover {
+    text-decoration: underline;
+}
+
+.secondSection img {
+    width: 510px;
+    height: 319px;
+}
+
+.fa-chart-line, .fa-cubes, .fa-chart-pie {
+    font-size: 2em;
+    border:1px solid #5CADD3 !important;
+    border-radius: 50%;
+}
+
+.secondSection .fa-circle {
+    position: relative;
+    top: 25px;
+    right: 10px;
+}
+
+.secondSection h3 {
+    font-weight: bold;
+}
+
+/* Portfolio section */
+#portfolioSection {
+    margin-top: -10px;
+}
+
+#navPortfolio ul {
+    border-radius: 5px;
+}
+
+#navPortfolio .fa-caret-down {
+    font-size: 1.6em;
+    color: #288ab7;
+    position: relative;
+    top: 34px;
+    right: 40px;
+    display: none;
+}
+
+#navPortfolio .nav-item a {
+    padding: 16px;
+}
+
+#navPortfolio .nav-item a:hover {
+    background-color: #5CADD3;
+    color: #ffffff !important;
+    border-bottom: 4px solid #288ab7;
+    padding: 12px 0 12px 16px;
+}
+
+#navPortfolio .nav-item a:hover > .fa-caret-down {
+    display: initial;
+}
+
+#navPortfolio .nav-item .hoverLeft:hover {
+    border-radius: 5px 0 0 5px;
+}
+
+#navPortfolio .nav-item .hoverRight:hover {
+    border-radius: 0 5px 5px 0;
+}
+
+#portfolioSection figure:hover > figcaption {
+    display: initial;
+}
+
+#portfolioSection figure {
+    position: relative;
+}
+
+#portfolioSection img {
+    z-index: 1;
+}
+
+#portfolioSection figcaption {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 70px;
+    padding: 5px 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+#portfolioSection figcaption p{
+    font-size: 0.9em;
+}
+
+#portfolioSection .fa-eye {
+    padding: 10px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    font-size: 1.2em;
+    position: absolute;
+    right: 30px;
+    bottom: 48px;
+}
+
+#portfolio .imgResponsive {
+    display: none;
+}
+
+/* Contact section */
+#contact .container {
+    position: relative;
+}
+
+#filter {
+    width: 100%;
+    height: 628px;
+    z-index: 1;
+}
+
+#contact iframe {
+    width: 100%;
+    height: 628px;
+    opacity: 0.7;
+    z-index: 0;
+}
+
+#formContact {
+    position: absolute;
+    top: 48px;
+    right: 102px;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 2;
+}
+
+#formContact input {
+    padding: 2px;
+    line-height: 1em;
+}
+
+#formContact input:focus, #formContact textarea:focus {
+    border-color: #5CADD3 !important;
+    box-shadow: 2px 2px 10px #5CADD3 !important;
+}
+
+/* Media queries */
+@media all and (max-width: 1199px)
+{
+    #portfolio .imgResponsive {
+        display: initial;
+    }
+}
+
+@media all and (max-width: 991px)
+{
+    .navbar-toggler {
+        border-color: rgba(92, 173, 211, 0.5) !important;
+    }
+
+    .navbar-toggler:focus {
+        color: rgba(92, 173, 211, 1) !important;
+    }
+
+    .navbar .fa-bars {
+        font-size: 30px;
+    }
+
+    .navbar .nav-item a {
+        margin: 15px 0 0 20px !important;
+        padding: 0;
+        font-size: 0.9em;
+    }
+
+    .navbar .nav-item a:hover {
+        border-top: 0;
+        border-left: 3px solid #5cadd3;
+        margin: 15px 0 0 0 !important;
+        padding: 0 0 0 17px !important;
+    }
+
+    #sliderCarousel .carousel-control-prev {
+        width: 28px !important;
+        height: 56px !important;
+    }
+
+    #sliderCarousel .carousel-control-prev-icon {
+        width: 1.2em;
+        height: 1.2em;
+    }
+    
+    #sliderCarousel .carousel-control-next {
+        width: 30px !important;
+        height: 60px !important;
+    }
+
+    #sliderCarousel .carousel-control-next-icon {
+        width: 1.2em;
+        height: 1.2em;
+    }
+
+    h1 {
+        line-height: 32px !important;
+        font-size: 1.8em !important;
+        word-spacing: 0.01em !important;
+    }
+
+    p {
+        font-size: 0.9em;
+        word-spacing: 0.1em;
+    }
+
+    #sliderCarousel .btn {
+        padding: 8px 14px 8px 14px;
+    }
+    
+    .btn {
+        font-size: 0.9em;
+    }
+    
+    #portfolio .imgResponsive {
+        display: none;
+    }
+
+    #formContact input, #formContact textarea {
+        font-size: 0.9em !important;
+    }
+}
+
+@media all and (max-width: 767px)
+{
+    main {
+        margin-top: 70px;
+    }
+
+    .logo img {
+        width: 200px;
+        height: 44px;
+    }
+
+    .navbar .fa-bars {
+        font-size: 25px;
+    }
+
+    #carouselSlide {
+        display: none;
+    }
+
+    #imgResponsive {
+        display: initial;
+    }
+
+    .imgBackground {
+        position: relative;
+        height: 333px;
+		background: radial-gradient(rgb(122,125,124), rgb(98,102,50));
+		opacity: 0.7;
+    }
+
+    .imgBackground img {
+        position: absolute;
+        bottom: 0;
+    }
+
+    #sliderCarousel .title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #sliderCarousel .presentation {
+        top: 145px !important;
+    }
+
+    #sliderCarousel h1, #sliderCarousel p, #sliderCarousel .btn {
+        text-align: center !important;
+    }
+
+    #sliderCarousel .progress {
+        display: none;
+    }
+
+    #portfolioSection figcaption {
+        height: 100px;
+    }
+
+    #portfolioSection figcaption h4 {
+        padding-top: 20px;
+    }
+
+    #portfolioSection .fa-eye {
+        bottom: 77px;
+    }
+
+    #portfolio .imgResponsive {
+        display: initial;
+    }
+}
+
+@media all and (max-width: 575px)
+{
+    .logo img {
+        width: 180px;
+        height: 40px;
+    }
+
+    h1 {
+        line-height: 32px !important;
+        font-size: 1.5em !important;
+    }
+
+    #sliderCarousel p {
+        font-size: 0.8em;
+    }
+
+    #sliderCarousel .btn {
+        padding: 8px 14px 8px 14px;
+    }
+    
+    .btn {
+        font-size: 0.8em !important;
+    }
+    
+    h2 {
+        font-size: 2em !important;
+    }
+    
+    h3 {
+        font-size: 1.2em !important;
+    }
+
+    .secondSection img {
+        width: 280px;
+        height: 175px;
+    }
+
+    #navPortfolio .nav-item a:hover > .fa-caret-down {
+        display: none;
+    }
+
+    #portfolioSection figcaption {
+        height: 70px;
+    }
+    
+    #portfolioSection figcaption h4 {
+        padding-top: 5px;
+    }
+    
+    #portfolio figcaption p {
+        font-size: 0.7em;
+        line-height: 12px;
+        padding-top: 0;
+    }
+
+    #portfolioSection .fa-eye {
+        font-size: 1em;
+        bottom: 49px;
+    }
+
+    #formContact {
+        right: 52px;
+    }
+
+    #formContact input, #formContact textarea {
+        font-size: 0.8em !important;
+    }
+}
